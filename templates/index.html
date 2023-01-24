@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        {% for obj in object_list %}
+
+            {{ obj.id }} <br>
+            {{ obj.title }} <br/>
+            {{ obj.content }} <br/>
+            {{ obj.timestamp }} <br/>
+            {{ obj.updated }} <br/>
+
+        {% endfor %}
+    </body>
+</html>
